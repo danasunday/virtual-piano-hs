@@ -1,4 +1,7 @@
 document.addEventListener("keydown", function(event) {
+    /*  if (event.key === "a" || "s" || "d" || "f" || "g" || "h" || "j") { console.log("The '" + event.key + "' key is pressed."); }
+      else {console.log("Warning: another key is pressed!");}
+    }); */
 
     if (event.key === "a") {
         let audio = new Audio("audio/whiteKeys/A.mp3");
