@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+body {
+    background-color: #f7ede2;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h2 {
+    color: #720026;
+}
+
+.container {
+    height: 300px;
+    width: 700px;
+    position: fixed;
+    z-index: -1;
+    margin-top: 5%;
+    margin-left: 25%;
+    margin-right: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.white-keys {
+    height: 300px;
+    width: 700px;
+    position: fixed;
+    margin-top: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.white-keys kbd {
+    height: 298px;
+    width: 99px;
+    z-index: 1;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.black-keys {
+    height: 175px;
+    width: 600px;
+    position: fixed;
+    z-index: 2;
+    margin-top: 0;
+    margin-left: 0;
+    color: white;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.we {
+    height: 175px;
+    width: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.we kbd {
+    height: 175px;
+    width: 60px;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.tyu {
+    height: 175px;
+    width: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.tyu kbd {
+    height: 175px;
+    width: 60px;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
